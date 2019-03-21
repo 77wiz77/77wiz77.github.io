@@ -1,0 +1,18 @@
+table{
+    width: 100%;
+}
+
+th:first-child{
+    background: #c50d0d;
+    color: #ffffff;
+}
+
+th:nth-child(2){ /*в скобках указывается номер тега, first/last -child - всегда первый/последний*/
+    background: #ec5b21;
+    color: #52860d;
+}
+
+th:last-child{
+    background: #fffb28;
+    color: #000000;
+}
