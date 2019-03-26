@@ -1,0 +1,38 @@
+.Название {
+    font: bold 24px serif;
+    text-shadow: 2px 2px 3px rgb(68, 67, 67);
+    color: blue;
+    
+}
+
+.Название_аннотации {
+    font: 14px serif;
+    color: rgb(13, 126, 192)
+}
+
+.Текст_аннотации {
+    width: 50%;
+}
+
+.bold{
+    font: 14px serif;
+    color: rgb(13, 126, 192);
+}
+
+.blue{
+    font: bold 14px serif;
+    color: rgb(0, 0, 0);
+}
+
+.Заголовок_статьи {
+    width: 50%;
+    font: bold 14px serif;
+    color: rgb(13, 126, 192);
+}
+
+.Автор {
+    width: 50%;
+    font: italic 14px serif;
+    position: absolute;
+    text-align: right;
+}

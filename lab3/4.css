@@ -1,7 +1,19 @@
-q{
-    quotes: "<<" ">>"; /* Кавычки в виде двойных угловых скобок */
+blockquote{
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 10px;
+    margin-left: 40px;
     margin-right: 40px;
+}
+
+p::before{
+    content: "<<";
+}
+
+p::after{
+    content: ">>";
+}
+
+p::before, p::after{
+    color: #d65e26;
+    font-size: 40;
 }
