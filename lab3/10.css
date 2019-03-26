@@ -1,0 +1,18 @@
+.grid{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px;
+    grid-gap: 10px;
+}
+
+.grid div {
+    background: #000000;
+}
+
+.grid div:nth-child(2n){
+    background: #16adb3;
+}
+
+.grid div:hover{ /*действие при наведении мыши*/
+    background: #ffe760;
+}
