@@ -1,0 +1,109 @@
+.task-8 {
+    background: #b6b6b6;
+    padding: 20px 0 20px 20px;
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  
+  .bg-task-8 {
+    background: white;
+  }
+  
+  .name-header-8 {
+    background: #d6d6d6;
+    padding: 10px 0 10px 10px;
+    color:#5d5d5d;
+  }
+  
+  .colorline-14 {
+    background: rgba(24, 103, 237, 1);
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    color: white;
+  }
+  .colorline-13 {
+    background: rgba(24, 103, 237, 0.8);
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    color: white;
+  }
+  .colorline-12 {
+    background: rgba(24, 103, 237, 0.6);
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    color: white;
+  }
+  .colorline-11 {
+    background: rgba(24, 103, 237, 0.5);
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    color: white;
+  }
+  .colorline-10 {
+    background: rgba(24, 103, 237, 0.4);
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    color: white;
+  }
+  .colorline-9 {
+    background: rgba(24, 103, 237, 0.3);
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    color: white;
+  }
+  .colorline-8 {
+    background: rgba(24, 103, 237, 0.2);
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    color: white;
+  }
+  .colorline-7 {
+    background: rgb(120, 213, 141);
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    color: white;
+  }
+  .colorline-6 {
+    background: rgba(240, 31, 213, 0.2);
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    color: white;
+  }
+  .colorline-5 {
+    background: rgba(240, 31, 213, 0.3);
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    color: white;
+  }
+  .colorline-4 {
+    background: rgba(240, 31, 213, 0.4);
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    color: white;
+  }
+  .colorline-3 {
+    background: rgba(240, 31, 213, 0.5);
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    color: white;
+  }
+  .colorline-2 {
+    background: rgba(240, 31, 213, 0.6);
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    color: white;
+  }
+  .colorline-1 {
+    background: rgba(240, 31, 213, 0.8);
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    color: white;
+  }
+  .colorline-0 {
+    background: rgba(240, 31, 213, 1);
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    color: white;
+  }
+  
