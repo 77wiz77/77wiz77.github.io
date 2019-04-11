@@ -1,11 +1,11 @@
 p1{
-    border-color: #0a54df; /* Цвет границы */
+    border-color: #2565db; /* Цвет границы */
     border-style: solid; /* Стиль границы */
     padding: 1px;
 }
 
 p2{
-    border-color: #f0175f #0a54df; /* Цвет границы */
+    border-color: #e70f57 #1a57ca; /* Цвет границы */
     border-style: solid; /* Стиль границы */
     padding: 1px;
 }
@@ -17,7 +17,7 @@ p3{
 }
 
 p4{
-    border-color: #df0a0a #0adf3f #0a54df #e91ade; /* Цвет границы */
+    border-color: #df0a0a #14d144 #0a54df #e91ade; /* Цвет границы */
     border-style: solid; /* Стиль границы */
     padding: 1px;
 }
