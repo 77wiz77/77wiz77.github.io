@@ -1,0 +1,40 @@
+$font-stack:    'Times New Roman', sans-serif;
+$primary-color: rgb(255, 255, 255);
+
+@mixin width($width) {
+    -webkit-width: $width;
+     -moz-width: $width;
+      -ms-width: $width;
+          width: $width;
+}
+
+@mixin height($height) {
+    -webkit-height: $height;
+     -moz-height: $height;
+      -ms-height: $height;
+          height: $height;
+}
+
+%fontsize{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.block{
+    @include width(100px);
+    @include height(100px);
+    display: block;
+    background: #116fda;
+    text-align: center;
+    color: $primary-color;
+    font: $font-stack;  
+    @extend %fontsize;
+    padding: 25px * 2;
+    position: absolute;
+    left: 45%;
+    transition: transform 2s;
+  }
+  
+  .block:hover {
+    transform: scale(2,2);
+  }

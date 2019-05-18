@@ -1,0 +1,22 @@
+.container-fluid{
+    background-color: rgb(236, 79, 17);
+}
+.display-4{
+    color: white;
+}
+
+small{
+    color: black;
+}
+
+.row{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.text-secondary{
+    color:white;
+}

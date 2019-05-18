@@ -1,6 +1,73 @@
+body{
+    font-family: 'Times New Roman', Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
 header{
     position: relative;
     background: linear-gradient(45deg,#0b99f8,#ebf3f1);
     width: 100%;
     height: 140px;
+}
+
+.headertext{
+    position: inherit;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    top: calc(50% - 20px);
+    color: #ffffff;
+    opacity: 50%;
+}
+
+footer{
+    position: relative;
+    background: linear-gradient(45deg,#121416,#2a2e2d);
+    width: 100%;
+    height: 140px;
+}
+
+.footertext{
+    position: inherit;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    top: calc(50% - 20px);
+    color: #ffffff;
+    opacity: 50%;
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+.zerg{
+    width: 100%;
+}
+
+.texttab{ /*нужно разобраться с padding*/
+    color: #ffffff;
+    padding: 50px 5px;
+    opacity: 50%;
+}
+
+#navigator{
+    background: #20ca67;
+    width: 35%;
+    height: 500px;
+}
+
+#addstuff{
+    background: #a311b6;
+    width: 25%;
+    height: 300px;
+}
+
+#maincontent{
+    background: #0b99f8;
+    width: 40%;
+    height: 700px;
 }

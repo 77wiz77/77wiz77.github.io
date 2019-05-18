@@ -1,0 +1,33 @@
+.block {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.block {
+  -webkit-width: 100px;
+  -moz-width: 100px;
+  -ms-width: 100px;
+  width: 100px;
+  -webkit-height: 100px;
+  -moz-height: 100px;
+  -ms-height: 100px;
+  height: 100px;
+  display: block;
+  background: #116fda;
+  text-align: center;
+  color: white;
+  font: "Times New Roman", sans-serif;
+  padding: 50px;
+  position: absolute;
+  left: 45%;
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+}
+
+.block:hover {
+  -webkit-transform: scale(2, 2);
+          transform: scale(2, 2);
+}
+/*# sourceMappingURL=4.css.map */

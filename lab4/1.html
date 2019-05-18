@@ -2,22 +2,32 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Flex</title>
         <link rel="stylesheet" href="1.css">
     </head>
     <body>
         <header class="header">
-            <div class="headertext">Header</div>
+            <div class="headertext">Шапка</div>
         </header>
-        <section>
-            <div class="Main">
-                <img src="Zerg.png" alt="zerg">
-            </div> 
+
+        <div class="flex">
+            <section id="navigator">
+            <div class="texttab">Навигация</div>
+            <img src="Zerg.png" alt="zerg" class="zerg">
         </section>
+        <section id="addstuff">
+            <div class="texttab">Дополнительная информация</div>
+            <img src="Zerg.png" alt="zerg" class="zerg">
+        </section>
+        <section id="maincontent">
+            <div class="texttab">Основная информация</div>
+            <img src="Zerg.png" alt="zerg" class="zerg">
+        </section>
+        </div>
+
         <footer class="footer">
-            <div class="footertext">Footer</div>
-            <a href="/lab4.html">Вернуться к выбору задания</a>
+            <div class="footertext">Подвал</div>
         </footer>
+        <a href="/lab4.html">Вернуться к выбору задания</a>
     </body>
 </html>

@@ -1,0 +1,15 @@
+.bg-success{
+    color: rgb(32, 206, 32);
+}
+
+.bg-info{
+    color: blue;
+}
+
+.bg-warning{
+    color: rgb(119, 53, 9);
+}
+
+.bg-danger{
+    color: rgb(255, 81, 81);
+}

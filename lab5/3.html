@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Адаптивная таблица</title>
+        <!--Подключение Bootstrap CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--Подсоединить адаптивность под все экраны-->
+    </head>
+    <body>
+        <div class="container-fluid">
+        <div class="table-responsive">    <!--Скролл появляется только если не хватает места под названия колонок таблицы-->
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Класс</td>
+                        <td>Описание</td>
+                    </tr>   
+                </thead>
+                <tbody>
+                    <tr>
+                        <!--Светло-синий-->
+                        <td class="table-info">Класс 1</td>
+                        <td class="table-info">Показывает нейтральное информативное изменение</td>
+                    </tr>
+                    <tr>
+                        <!--Серый-->
+                        <td class="table-secondary">Класс 2</td>
+                        <td class="table-secondary">Изменяет цвет строки или ячейки при наведении на него</td>
+                    </tr>
+                    <tr>
+                        <!--Красный-->
+                        <td class="table-danger">Класс 3</td>
+                        <td class="table-danger">Показывает опасное или потенциально негативное</td>
+                    </tr>
+                    <tr>
+                        <!--Желтый-->
+                        <td class="table-warning">Класс 4</td>
+                        <td class="table-warning">Показывает предупреждения, которым нужно уделить внимание</td>
+                    </tr>
+                    <tr>
+                        <!--Зеленый-->
+                        <td class="table-success">Класс 5</td>
+                        <td class="table-success">Показывает успешное или позитивное действие</td>
+                    </tr>    
+                </tbody>
+            </table>
+        </div>
+        </div>    
+        <a href="/lab5.html">Вернуться к списку лабораторных</a>
+    <!--Подключение Bootstrap JS-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--Подключение Bootstrap jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!--Подключение Bootstrap Popper-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    </body>
+</html>
