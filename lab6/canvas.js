@@ -1,4 +1,4 @@
-var canvas = document.getElementById('canvas');
+var canvas = document.getElementById('111');
 var ctx = canvas.getContext('2d');
 
 //Основной прямоугольник
