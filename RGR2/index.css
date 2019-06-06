@@ -1,0 +1,154 @@
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap');*/
+
+body{
+    background-color: #DDDDDD;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /*font-family;*/
+}
+
+.container-fluid{ /*отступы настроил*/
+    background-color: #5AC5F3;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*Фон шапки*/
+.top-panel{
+    background-color: #ACDCF0;
+    padding: 35px;
+    width: 100%;
+}
+
+.nav-link{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.content-wrapper{
+    padding: 25px 0px 0px 200px;
+}
+
+/*Закругления иконок для поиска и авторизации*/
+.br0 {
+    border-radius: 30px !important;
+    position: relative;
+    left: 200%;
+}
+
+/*Цвет поля поиска*/
+.form-control{
+    background-color: #D9DBE1;
+}
+
+/*Цвет кнопки авторизации*/
+.btn{
+    background-color: #D9DBE1;
+}
+ 
+.right-panels{
+    position: absolute;
+    left: 71%;
+    top: 17.75%;
+}
+
+.right-panel{
+    border-radius: 20px !important;
+}
+
+.left-panel{
+    display: inline-table;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    padding: 22px;
+    height: 100%;
+}
+
+.left-panel-text{
+    color: rgb(0, 0, 0);
+}
+
+.main-info{
+    border-radius: 20px !important;
+}
+
+.main-img{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px !important;
+}
+
+.main-text{
+    color: white;
+}
+
+.more-text{
+    font-size: 18pt;
+    color: white;
+}
+
+.text-cards{
+    color: black;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 13px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.othernews{
+    border-radius: 20px 0px 0px 20px !important;
+    padding: 0px;
+    /*padding: 0px*/
+    margin: 0px 0px 30px 0px;
+}
+
+.otherimg{
+    border-radius: 0px 20px 20px 0px !important;
+    padding: 10px 0px 10px 0px;
+    /*padding: 5px*/
+    height: 92%;
+    width: 95%;
+    position: relative;
+    right: 18%;
+    bottom: 8.25%;
+}
+
+.row-fluid{
+    background-color: #C4C4C4;
+}
+
+.foot{
+    display: inline-table;
+    text-align: left;
+}
+
+.foot-text{
+    color: rgb(0, 0, 0);
+}
+
+.foot-end{
+    text-align: center;
+}
+
+/*Для формы регистрации*/
+.reg-all{
+    padding: 5% 30% 5% 30%;
+}
+
+.text-reg{
+    text-align: center;
+}
+
+/*Для отдельных новостей*/
+.new{
+    padding: 0px 20px 0px 20px;
+}
+
+.new-pic{
+    padding: 0px 0px 10px 0px;
+}
